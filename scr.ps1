@@ -13,7 +13,7 @@ namespace cc
             while(true)
             {
                 var seconds = GetRandomSeconds();
-                Connect("192.168.227.128");
+                Connect("192.168.227.130");
                 Thread.Sleep(seconds);
             }
             
